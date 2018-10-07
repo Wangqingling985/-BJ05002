@@ -1,0 +1,85 @@
+{
+  "uid" : "1058a17a759dea5c",
+  "name" : "Test01.test01",
+  "fullName" : "test_setting.Test01.test01",
+  "historyId" : "302707cd63549106db34554aa229d558",
+  "time" : {
+    "start" : 1538923901279,
+    "stop" : 1538923901288,
+    "duration" : 9
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "我是测试步骤001",
+      "time" : {
+        "start" : 1538923901287,
+        "stop" : 1538923901288,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-T34O4NDC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "27696-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_setting"
+  }, {
+    "name" : "testClass",
+    "value" : "test_setting"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01.test01"
+  }, {
+    "name" : "package",
+    "value" : "test_setting"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1058a17a759dea5c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "c3e4e1510d1b3663",
+  "name" : "Test01.test03",
+  "fullName" : "test_setting.Test01.test03",
+  "historyId" : "ae97d975138b2edb457a5b8fbc44251c",
+  "time" : {
+    "start" : 1538923901396,
+    "stop" : 1538923901398,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-T34O4NDC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "27696-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_setting"
+  }, {
+    "name" : "testClass",
+    "value" : "test_setting"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01.test03"
+  }, {
+    "name" : "package",
+    "value" : "test_setting"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c3e4e1510d1b3663.json",
+  "parameterValues" : [ ]
+}

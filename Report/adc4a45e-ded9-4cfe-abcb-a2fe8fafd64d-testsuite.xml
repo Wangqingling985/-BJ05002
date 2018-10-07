@@ -1,0 +1,83 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1538923901279" stop="1538923901398">
+  <name>test_setting</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1538923901279" status="passed" stop="1538923901288">
+      <name>Test01.test01</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="27696-MainThread"/>
+        <label name="host" value="LAPTOP-T34O4NDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1538923901287" status="passed" stop="1538923901288">
+          <name>我是测试步骤001</name>
+          <title>我是测试步骤001</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1538923901292" status="failed" stop="1538923901381">
+      <name>Test01.test02</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test_setting.Test01 object at 0x00000120D9214588&gt;
+
+    @allure.step('我是测试步骤002')
+    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
+    def test02(self):
+        allure.attach('断言开始','学院信息是否更新成功？')
+        print("test02被执行")
+        allure.attach('断言结束', '更新成功！')
+&gt;       assert 0
+E       assert 0
+
+Scripts\test_setting.py:19: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="thread" value="27696-MainThread"/>
+        <label name="host" value="LAPTOP-T34O4NDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1538923901295" status="failed" stop="1538923901299">
+          <name>我是测试步骤002</name>
+          <title>我是测试步骤002</title>
+          <attachments>
+            <attachment source="e65dd057-beb3-4416-90b1-68e4ca269c86-attachment.txt" title="断言开始" type="text/plain"/>
+            <attachment source="86e679f6-2991-4060-8e8f-b9f1d7521fc4-attachment.txt" title="断言结束" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1538923901375" status="failed" stop="1538923901376">
+          <name>我是测试步骤002</name>
+          <title>我是测试步骤002</title>
+          <attachments>
+            <attachment source="a1306c33-1aa3-4840-8b6b-e92abf9f6616-attachment.txt" title="断言开始" type="text/plain"/>
+            <attachment source="f8253ce2-ba3f-4f72-a87a-705073ce7c6b-attachment.txt" title="断言结束" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1538923901396" status="passed" stop="1538923901398">
+      <name>Test01.test03</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="27696-MainThread"/>
+        <label name="host" value="LAPTOP-T34O4NDC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

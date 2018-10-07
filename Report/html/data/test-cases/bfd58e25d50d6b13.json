@@ -1,0 +1,134 @@
+{
+  "uid" : "bfd58e25d50d6b13",
+  "name" : "Test01.test02",
+  "fullName" : "test_setting.Test01.test02",
+  "historyId" : "7d62a99115930ca5b8b301cac87dc6fb",
+  "time" : {
+    "start" : 1538923901292,
+    "stop" : 1538923901381,
+    "duration" : 89
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <test_setting.Test01 object at 0x00000120D9214588>\n\n    @allure.step('我是测试步骤002')\n    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)\n    def test02(self):\n        allure.attach('断言开始','学院信息是否更新成功？')\n        print(\"test02被执行\")\n        allure.attach('断言结束', '更新成功！')\n>       assert 0\nE       assert 0\n\nScripts\\test_setting.py:19: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 0",
+    "statusTrace" : "self = <test_setting.Test01 object at 0x00000120D9214588>\n\n    @allure.step('我是测试步骤002')\n    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)\n    def test02(self):\n        allure.attach('断言开始','学院信息是否更新成功？')\n        print(\"test02被执行\")\n        allure.attach('断言结束', '更新成功！')\n>       assert 0\nE       assert 0\n\nScripts\\test_setting.py:19: AssertionError",
+    "steps" : [ {
+      "name" : "我是测试步骤002",
+      "time" : {
+        "start" : 1538923901295,
+        "stop" : 1538923901299,
+        "duration" : 4
+      },
+      "status" : "failed",
+      "statusMessage" : "self = <test_setting.Test01 object at 0x00000120D9214588>\n\n    @allure.step('我是测试步骤002')\n    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)\n    def test02(self):\n        allure.attach('断言开始','学院信息是否更新成功？')\n        print(\"test02被执行\")\n        allure.attach('断言结束', '更新成功！')\n>       assert 0\nE       assert 0\n\nScripts\\test_setting.py:19: AssertionError",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4398621acc745e90",
+        "name" : "断言开始",
+        "source" : "4398621acc745e90.txt",
+        "type" : "text/plain",
+        "size" : 33
+      }, {
+        "uid" : "42e5b45419fc6be6",
+        "name" : "断言结束",
+        "source" : "42e5b45419fc6be6.txt",
+        "type" : "text/plain",
+        "size" : 15
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "我是测试步骤002",
+      "time" : {
+        "start" : 1538923901375,
+        "stop" : 1538923901376,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "statusMessage" : "self = <test_setting.Test01 object at 0x00000120D9214588>\n\n    @allure.step('我是测试步骤002')\n    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)\n    def test02(self):\n        allure.attach('断言开始','学院信息是否更新成功？')\n        print(\"test02被执行\")\n        allure.attach('断言结束', '更新成功！')\n>       assert 0\nE       assert 0\n\nScripts\\test_setting.py:19: AssertionError",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5513e0055bd8b4a6",
+        "name" : "断言开始",
+        "source" : "5513e0055bd8b4a6.txt",
+        "type" : "text/plain",
+        "size" : 33
+      }, {
+        "uid" : "6b4fcf3fb12bef90",
+        "name" : "断言结束",
+        "source" : "6b4fcf3fb12bef90.txt",
+        "type" : "text/plain",
+        "size" : 15
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 4,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-T34O4NDC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "thread",
+    "value" : "27696-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_setting"
+  }, {
+    "name" : "testClass",
+    "value" : "test_setting"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01.test02"
+  }, {
+    "name" : "package",
+    "value" : "test_setting"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bfd58e25d50d6b13.json",
+  "parameterValues" : [ ]
+}
